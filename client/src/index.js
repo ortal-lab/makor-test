@@ -14,7 +14,7 @@ const reducers = combineReducers({ data });
 const store = createStore(reducers, applyMiddleware(initialStore));
 
 window.store = store;
-store.dispatch(actions.getData());
+//store.dispatch(actions.getData());
 
 ReactDOM.render(
   <React.StrictMode>
